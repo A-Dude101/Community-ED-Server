@@ -112,7 +112,7 @@
           "mapName": "Breached"
         }
 		]
-    },
+  },
 	{
       "displayName": "Castle Wars",
       "typeName": "Castle Wars",
@@ -148,6 +148,6 @@
           "mapName": "Rainbow Castle"
         }
 		]
-    }
+  }
   ]
 }
