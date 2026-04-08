@@ -159,8 +159,8 @@ At this point, the editing process is fully functional, no need to set-up anythi
 1. Open GitHub Desktop
 2. Fetch Origin (To refresh local files)
 3. Make changes
-4. Appropriately Name and write the description of the changes in your commit
-5. Send Commit to main fork
+4. Appropriately name and write the description of the changes in your commit
+5. Send Commit as a Pull Request for me to accept and merge into the main repository
 
 That's all really. Any and all communication in regards to server files are to be done externally, aka. most likely one of the ED discords. If anything major happens in terms of upkeep or moderation of these server files, please do contact me (Markus/A Dude on discord) (I'll probably know about it, but user feedback always gives better insight into the problem).
 
