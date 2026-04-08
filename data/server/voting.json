@@ -50,7 +50,37 @@
     }
   ],
   "types": [
-    {
+	{
+      "displayName": "Castle Wars+",
+      "typeName": "Castle Wars",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 0",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+		{
+          "displayName": "Fast CW 1.0",
+          "mapName": "Fast CW 1.0"
+        },
+		{
+          "displayName": "Palletfield",
+          "mapName": "Palletfield"
+        }
+		]
+    },
+	{
       "displayName": "Fatkid",
       "typeName": "Fatkid",
       "modPack": "Customization++",
@@ -67,8 +97,7 @@
         "Server.KillCommandEnabled 0",
         "Server.KillCommandDuringPodiumEnabled 1",
 		"Server.NumberOfTeams 2",
-		"Time.GameSpeed 1",
-		"Voting.ReloadJson"
+		"Time.GameSpeed 1"
       ],
       "specificMaps": [
         {
@@ -112,10 +141,146 @@
           "mapName": "Breached"
         }
 		]
-  },
+    },
 	{
-      "displayName": "Castle Wars",
-      "typeName": "Castle Wars",
+      "displayName": "Hot Pursuit",
+      "typeName": "Hot Pursuit",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 0",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 0",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "HP Beach Resort",
+          "mapName": "HP Beach Resort"
+        },
+        {
+          "displayName": "HP Guardian",
+          "mapName": "HP Guardian"
+        },
+        {
+          "displayName": "HP Hightops",
+          "mapName": "HP Hightops"
+        },
+        {
+          "displayName": "HP Skyline",
+          "mapName": "HP Skyline"
+        }
+		]
+    },
+	{
+      "displayName": "Ro Sham Bo",
+      "typeName": "Sham Bo",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Ro Sham Bo",
+          "mapName": "Ro Sham Bo"
+        },
+        {
+          "displayName": "Sham Bo",
+          "mapName": "Sham Bo"
+        }
+		]
+    },
+	{
+      "displayName": "Infection",
+      "typeName": "Infection V1",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 0",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 0",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Epidemic",
+          "mapName": "Epidemic"
+        },
+        {
+          "displayName": "Get Out",
+          "mapName": "Get Out"
+        },
+        {
+          "displayName": "Zombie Streets",
+          "mapName": "Zombie Streets"
+        },
+		{
+          "displayName": "Mombasa St.1.5",
+          "mapName": "Mombasa St.1.5"
+        },
+		{
+          "displayName": "Halo Burger",
+          "mapName": "Halo Burger"
+        }
+		]
+    },
+	{
+      "displayName": "Demo Derby +",
+      "typeName": "Demo Derby",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Demo Derby +",
+          "mapName": "Demo Derby +"
+        }
+		]
+    },
+	{
+      "displayName": "Frogger",
+      "typeName": "Frogger",
       "modPack": "Customization++",
 	  "minPlayersAllowed": 1,
 	  "maxPlayersAllowed": 16,
@@ -130,12 +295,364 @@
         "Server.KillCommandEnabled 1",
         "Server.KillCommandDuringPodiumEnabled 1",
 		"Server.NumberOfTeams 2",
-		"Voting.ReloadJson",
-		"Time.GameSpeed 1",
-		"Voting.ReloadJson"
+		"Time.GameSpeed 1"
       ],
       "specificMaps": [
+        {
+          "displayName": "Sandy Pond",
+          "mapName": "Sandy Pond"
+        },
 		{
+          "displayName": "Frogger V2",
+          "mapName": "Frogger V2"
+        }
+		]
+    },
+	{
+      "displayName": "Gladiators",
+      "typeName": "Gladiators",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Friendship Pit",
+          "mapName": "Friendship Pit"
+        },
+        {
+          "displayName": "Maximus",
+          "mapName": "Maximus"
+        }
+		]
+    },
+	{
+      "displayName": "SkyCastle",
+      "typeName": "SkyCastle",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 0",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 0",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Skycastle 6.3",
+          "mapName": "Skycastle 6.3"
+        },
+        {
+          "displayName": "Skycastle V",
+          "mapName": "Skycastle V"
+        }
+		]
+    },
+	{
+      "displayName": "FFA KOTH",
+      "typeName": "FFA KOTH",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Standoff",
+          "mapName": "bunkerworld"
+        },
+        {
+          "displayName": "High Ground",
+          "mapName": "deadlock"
+        },
+        {
+          "displayName": "The Pit",
+          "mapName": "cyberdyne"
+        },
+		{
+          "displayName": "Gash",
+          "mapName": "Gash"
+        },
+		{
+          "displayName": "boxed ground",
+          "mapName": "boxed ground"
+        }
+		]
+    },
+	{
+      "displayName": "Ghost Derby",
+      "typeName": "Ghost Derby",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "The Cog",
+          "mapName": "The Cog"
+        }
+		]
+    },
+	{
+      "displayName": "Drive or Die",
+      "typeName": "Drive Or Die FV",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Drive Or Die FV",
+          "mapName": "Drive Or Die FV"
+        },
+		{
+          "displayName": "Outbreak City",
+          "mapName": "Outbreak City"
+        }
+		]
+    },
+	{
+      "displayName": "Husky Raid",
+      "typeName": "Husky Raid",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 4,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 0",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 0",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Backrooms (HR)",
+          "mapName": "Backrooms (HR)"
+        },
+		{
+          "displayName": "Husky Raid 2",
+          "mapName": "Husky Raid 2"
+        }
+		]
+    },
+	{
+      "displayName": "Hog Of The Hill",
+      "typeName": "Hog Of The Hill",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 6,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 0",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Hog Arena",
+          "mapName": "Hog Arena"
+        }
+		]
+    },
+	{
+      "displayName": "NPC KOTH",
+      "typeName": "NPC KOTH",
+      "modPack": "PlayerRepParty",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1" 
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Standoff",
+          "mapName": "bunkerworld"
+        },
+        {
+          "displayName": "High Ground",
+          "mapName": "deadlock"
+        },
+        {
+          "displayName": "Valhalla",
+          "mapName": "riverworld"
+        },
+        {
+          "displayName": "Last Resort",
+          "mapName": "zanzibar"
+        },
+		{
+          "displayName": "Narrows",
+          "mapName": "chill"
+        }
+		]
+    },
+	{
+      "displayName": "Drag Race",
+      "typeName": "Drag Race",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 4,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 2",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 8",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Drag Race SD",
+          "mapName": "Drag Race SD"
+        },
+		{
+          "displayName": "Drag Race NR",
+          "mapName": "Drag Race NR"
+        },
+		{
+          "displayName": "Koopa Castle V2",
+          "mapName": "Koopa Castle V2"
+        }
+		]
+    },
+	{
+      "displayName": "Halo Ring",
+      "typeName": "Halo Ring V3",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 0",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Halo Ring V3",
+          "mapName": "Halo Ring V3"
+        },
+		{
+          "displayName": "Hunting Season",
+          "mapName": "Hunting Season"
+        },
+		{
+          "displayName": "Halo Run",
+          "mapName": "Halo Run"
+        }
+		]
+    },
+	{
+      "displayName": "Castle Wars+",
+      "typeName": "Castle Wars",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 6,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 0",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
           "displayName": "Tundra Wars",
           "mapName": "Tundra Wars"
         },
@@ -148,6 +665,191 @@
           "mapName": "Rainbow Castle"
         }
 		]
-  }
-  ]
+    },
+	{
+      "displayName": "Splatter Monkey",
+      "typeName": "Splatter Monkey",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 4,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 0",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1.35"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Splatter Monkey",
+          "mapName": "Splatter Monkey"
+        }
+		]
+    },
+	{
+      "displayName": "Wacky Fiesta",
+      "typeName": "Wacky Fiesta",
+      "modPack": "Wacky Weapons",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "High Ground",
+          "mapName": "deadlock"
+        },
+        {
+          "displayName": "Guardian",
+          "mapName": "guardian"
+        },
+		{
+          "displayName": "Narrows",
+          "mapName": "chill"
+        },
+        {
+          "displayName": "The Pit",
+          "mapName": "cyberdyne"
+        }
+		]
+    },
+	{
+      "displayName": "Blue Rover",
+      "typeName": "Blue Rover FV",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 6,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 0",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Blue Rover FV",
+          "mapName": "Blue Rover FV"
+        }
+		]
+    },
+	{
+      "displayName": "3 Lap Race",
+      "typeName": "3 Lap Race",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 0",
+        "Server.UnlimitedSprint 0",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "LSA Race",
+          "mapName": "LSA Race"
+        },
+        {
+          "displayName": "Monte Carlo",
+          "mapName": "Monte Carlo"
+        },
+        {
+          "displayName": "LSD Race",
+          "mapName": "LSD Race"
+        },
+        {
+          "displayName": "Drift Circuit",
+          "mapName": "Drift Circuit"
+        },
+		{
+          "displayName": "Tokyo Drift",
+          "mapName": "Tokyo Drift"
+        }
+		]
+    },
+	{
+      "displayName": "Doom Slayer",
+      "typeName": "Doom Slayer",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 0",
+        "Server.UnlimitedSprint 0",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+		],
+      "specificMaps": [
+        {
+          "displayName": "Doom 2 Map 02",
+          "mapName": "Doom 2 Map 02"
+        }
+      ]
+    },
+	{
+      "displayName": "Hide&Seek",
+      "typeName": "Hide&Seek",
+      "modPack": "Customization++",
+	  "minPlayersAllowed": 1,
+	  "maxPlayersAllowed": 16,
+	  "commands": [
+        "Server.Sprint 0",
+        "Server.UnlimitedSprint 0",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+		],
+      "specificMaps": [
+        {
+          "displayName": "Hide&Seek Dock",
+          "mapName": "Hide&Seek Dock"
+        }
+      ]
+    }
+  ],
+  "vetoPlaylist": []
 }
