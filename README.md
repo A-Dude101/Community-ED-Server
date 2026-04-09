@@ -189,7 +189,7 @@ Now that you have applied (Push Origin) your changes (Commit) to your copy of th
 
 
 
-By clicking "Create Pull-Request" or "Open Pull-Request" you will be directed to an internet browser GitHub page. This is where you will name and describe your changes directly to me so that I may review them later and "merge" your changes to the main Community Server repository.
+By clicking "Create Pull-Request" or "Open Pull-Request" you will be directed to another GitHub page. This is where you will name and describe your changes directly to me so that I may review them later and "merge" your changes to the main Community Server repository.
 <img width="1262" height="884" alt="image" src="https://github.com/user-attachments/assets/9bbfb1b8-9883-4d7c-8ef5-630dd40e1013" />
 
 
