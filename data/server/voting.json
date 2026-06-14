@@ -477,6 +477,62 @@
           "randomChance": 3
         }
       ]
+    },
+	{
+      "displayName": "Team Slayer",
+      "typeName": ".Team Slayer",
+      "modPack": "Hugegrass",
+      "minPlayersAllowed": 1,
+      "maxPlayersAllowed": 16,
+      "randomChance": 6,
+      "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+        "Server.NumberOfTeams 2",
+        "Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Hugegrass",
+          "mapName": "hugegrass",
+          "randomChance": 3
+        }
+      ]
+    },
+	{
+      "displayName": "CTF",
+      "typeName": "CTF",
+      "modPack": "Hugegrass",
+      "minPlayersAllowed": 1,
+      "maxPlayersAllowed": 16,
+      "randomChance": 6,
+      "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+        "Server.NumberOfTeams 2",
+        "Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Hugegrass",
+          "mapName": "hugegrass",
+          "randomChance": 3
+        }
+      ]
     }
   ]
 }

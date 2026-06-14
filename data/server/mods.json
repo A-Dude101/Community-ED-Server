@@ -8,6 +8,9 @@
     },
     "PlayerRepParty": {
       "package_url": "http://www.files.halobase.box.ca:15771/api/public/dl/P83Q8NiA/Mods/Enash/PlayerRepParty.pak"
+	},
+    "Hugegrass": {
+      "package_url": "https://fileshare.zgaf.io/api_v2/mods/161/file"
 	}
   }
 }
